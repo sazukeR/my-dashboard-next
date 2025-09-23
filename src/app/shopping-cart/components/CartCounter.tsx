@@ -6,7 +6,7 @@ interface Props {
  count?: number;
 }
 
-export const CartCounter = ({ count = 0 }: Props) => {
+export const CartCounter = ({ count = 5 }: Props) => {
  const [counter, setCounter] = useState<number>(count);
 
  const incrementOrDecrement = (n: number) => {
