@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { PokemonResponse, SimplePokemon } from ".";
-import { PokemonGrid } from "./components/PokemonGrid";
+import { PokemonGrid } from "@/pokemons/components";
 
 const getPokemons = async (
  limit = 20,
@@ -17,7 +17,7 @@ const getPokemons = async (
   };
  });
 
- throw new Error("Este error no deberia suceder");
+ // throw new Error("Este error no deberia suceder");
 
  return resp;
 };

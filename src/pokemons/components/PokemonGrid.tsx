@@ -1,5 +1,5 @@
-import { SimplePokemon } from "../interface/simple-pokemon.interface";
 import { PokemonCard } from "./PokemonCard";
+import { SimplePokemon } from "@/app/dashboard/pokemons";
 
 interface Props {
  pokemons: SimplePokemon[];
