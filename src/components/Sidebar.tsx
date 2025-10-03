@@ -26,6 +26,12 @@ const menuItems = [
   title: "Pokemons",
   subTitle: "Static side generation",
  },
+ {
+  path: "/dashboard/favoritos",
+  icon: <IoFootball size={20} />,
+  title: "Favoritos",
+  subTitle: "Static side generation",
+ },
 ];
 
 export const Sidebar = () => {
